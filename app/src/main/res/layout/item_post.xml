@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Post ID -->
+    <TextView
+        android:id="@+id/postid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post ID: 1"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Post Title -->
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Title"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <!-- Post Body -->
+    <TextView
+        android:id="@+id/postBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Body"
+        android:textSize="14sp" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/commentsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>
